@@ -1,0 +1,70 @@
+﻿
+body {
+    background-color: #6a6161;
+}
+
+.totalbox {
+    border-radius:10px;
+    background-color: #9ad0ee;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    width: 900px;
+    height: 600px;
+    padding: 15px;
+}
+
+
+.userContainer {
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 1px solid black;
+    width: 250px;
+    height: 520px;
+    padding: 25px;
+    overflow: auto;
+    background-color: rgba(90, 82, 82, 0.58);
+    color: #fcfcfc;
+}
+
+
+.chatBox {
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    border: 1px solid black;
+    width: 500px;
+    height: 540px;
+    padding: 15px;
+    overflow: auto;
+    text-align: justify;
+    background-color: rgba(90, 82, 82, 0.58);
+}
+
+#data {
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#datasend { 
+
+	background-color:#9ad0ee;
+	position: relative;
+    top: 5px;
+    left: 10px;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+	color: white;
+}
+
+

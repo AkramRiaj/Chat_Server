@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Chat_Application</title>
+
+    <link href="Default.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/socket.io.js"></script>
+    <script src="Default.js"></script>
+
+
+</head>
+<body>
+
+    <div class="totalbox">
+        <div class="userContainer">
+            <h1><u>Active Users</u></h1>
+            <b> Search : </b> <input type='text' id='userSearch' /> <br />
+            <div id="users"></div>
+        </div>
+
+        <div class="chatBox">
+
+            <input id="data" /> <input type="button" id="datasend" value="Send" /> <br /> <br />
+            <input type="file" id="uploadfile" />
+            <div class="datasend"> </div>
+            
+            <div id="conversation"></div>
+
+            
+
+
+        </div>
+    </div>
+</body>
+</html>
